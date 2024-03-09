@@ -4,9 +4,9 @@ import './Flatforms.scss'
 const Flatforms = () => {
     return (
 
-        <div className="container-fluid h-100 red">
+        <div className="container-fluid red">
             <div className="slider-block row align-items-center h-100">
-                <h1 className="text-center">Featured in:</h1>
+                <h1 className="text-center">Learning with real-world tech tools and platforms</h1>
                 <div className="slider">
                     <div className="logo ">
                         <img src="/src/assets/Python.png" className="logo-img"/>

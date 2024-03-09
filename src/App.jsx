@@ -5,16 +5,18 @@ import './App.scss'
 import Header from "./layout/Header/Header.jsx";
 import Homepage from "./layout/Homepage/Homepage.jsx";
 import Flatforms from "./layout/Homepage/Flatforms.jsx";
+import Programs from "./layout/Programs/Programs.jsx";
 
 function App() {
     //const [count, setCount] = useState(0)
 
     return (
-        <div className="container-fluid">
+        <div className="">
             <div className="">
                 <Header/>
                 <Homepage/>
-                {/*<Flatforms/>*/}
+                <Flatforms/>
+                <Programs/>
             </div>
 
         </div>

@@ -5,7 +5,7 @@ import "./Header.scss"
 const Header = () => {
     return (
         <div>
-            <div className="container-fluid position-absolute z-1">
+            <div className="container-fluid ">
                 <div className="row">
                     <div className="column col-5 ">
                         <img src="/src/assets/logo.png" className="top-nav__logo float-start "/>
@@ -16,7 +16,7 @@ const Header = () => {
                                 <a>
                                     Home
                                 </a>
-                                <div className="dropdown position-relative z-2">
+                                <div className="dropdown ">
                                     <button type="button" className="btn dropdown-toggle"
                                             data-bs-toggle="dropdown">
                                         Our Programs
