@@ -1,0 +1,36 @@
+.container-fluid {
+  overflow: hidden;
+
+  .slider {
+
+    white-space: nowrap;
+
+    .logo {
+      display: inline-block;
+      animation: slide 35s infinite linear;
+
+      .logo-img {
+        width: calc(100%/9);
+        padding: 30px 30px;
+
+      }
+    }
+  }
+}
+.slider-block {
+  background-color: #ffe4e4 ;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+
+
+
