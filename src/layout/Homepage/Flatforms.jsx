@@ -9,26 +9,26 @@ const Flatforms = () => {
                 <h1 className="text-center">Learning with real-world tech tools and platforms</h1>
                 <div className="slider">
                     <div className="logo ">
-                        <img src="/src/assets/Python.png" className="logo-img"/>
-                        <img src="/src/assets/Gdev.png" className="logo-img"/>
-                        <img src="/src/assets/Blender.png" className="logo-img"/>
-                        <img src="/src/assets/Roblox.png" className="logo-img"/>
-                        <img src="/src/assets/scratch.png" className="logo-img"/>
-                        <img src="/src/assets/Tools.png" className="logo-img"/>
-                        <img src="/src/assets/Tools2.png" className="logo-img"/>
-                        <img src="/src/assets/ToolsTypingClub.png" className="logo-img"/>
-                        <img src="/src/assets/zoom.png" className="logo-img"/>
+                        <img src="/src/assets/images/Python.png" className="logo-img"/>
+                        <img src="/src/assets/images/Gdev.png" className="logo-img"/>
+                        <img src="/src/assets/images/Blender.png" className="logo-img"/>
+                        <img src="/src/assets/images/Roblox.png" className="logo-img"/>
+                        <img src="/src/assets/images/scratch.png" className="logo-img"/>
+                        <img src="/src/assets/images/Tools.png" className="logo-img"/>
+                        <img src="/src/assets/images/Tools2.png" className="logo-img"/>
+                        <img src="/src/assets/images/ToolsTypingClub.png" className="logo-img"/>
+                        <img src="/src/assets/images/zoom.png" className="logo-img"/>
                     </div>
                     <div className="logo ">
-                        <img src="/src/assets/Python.png" className="logo-img"/>
-                        <img src="/src/assets/Gdev.png" className="logo-img"/>
-                        <img src="/src/assets/Blender.png" className="logo-img"/>
-                        <img src="/src/assets/Roblox.png" className="logo-img"/>
-                        <img src="/src/assets/scratch.png" className="logo-img"/>
-                        <img src="/src/assets/Tools.png" className="logo-img"/>
-                        <img src="/src/assets/Tools2.png" className="logo-img"/>
-                        <img src="/src/assets/ToolsTypingClub.png" className="logo-img"/>
-                        <img src="/src/assets/zoom.png" className="logo-img"/>
+                        <img src="/src/assets/images/Python.png" className="logo-img"/>
+                        <img src="/src/assets/images/Gdev.png" className="logo-img"/>
+                        <img src="/src/assets/images/Blender.png" className="logo-img"/>
+                        <img src="/src/assets/images/Roblox.png" className="logo-img"/>
+                        <img src="/src/assets/images/scratch.png" className="logo-img"/>
+                        <img src="/src/assets/images/Tools.png" className="logo-img"/>
+                        <img src="/src/assets/images/Tools2.png" className="logo-img"/>
+                        <img src="/src/assets/images/ToolsTypingClub.png" className="logo-img"/>
+                        <img src="/src/assets/images/zoom.png" className="logo-img"/>
                     </div>
 
                 </div>

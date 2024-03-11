@@ -4,11 +4,10 @@ import "./Header.scss"
 
 const Header = () => {
     return (
-        <div>
-            <div className="container-fluid ">
+            <div className="container-fluid d-flex flex-column" style={{zIndex:10}}>
                 <div className="row">
                     <div className="column col-5 ">
-                        <img src="/src/assets/logo.png" className="top-nav__logo float-start "/>
+                        <img src="/src/assets/images/logo.png" className="top-nav__logo float-start "/>
                     </div>
                     <div className="column col-7 d-flex flex-row ">
                        <div className="column col-6 d-flex justify-content-start ">
@@ -37,7 +36,7 @@ const Header = () => {
                         </div>
 
                         <div className="column col-6 d-flex justify-content-end align-items-center">
-                            <img src="/src/assets/contact.png " className="top-nav__contact-logo "/>
+                            <img src="/src/assets/images/contact.png " className="top-nav__contact-logo "/>
                             <a className="top-nav__contact ">Call us</a>
                         </div>
                     </div>
@@ -45,7 +44,6 @@ const Header = () => {
 
                 </div>
             </div>
-        </div>
     )
 }
 export default Header;

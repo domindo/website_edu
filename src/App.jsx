@@ -1,11 +1,12 @@
-import {useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
+
 import './App.scss'
 import Header from "./layout/Header/Header.jsx";
 import Homepage from "./layout/Homepage/Homepage.jsx";
 import Flatforms from "./layout/Homepage/Flatforms.jsx";
 import Programs from "./layout/Programs/Programs.jsx";
+import Benefits from "./layout/Homepage/Benefits.jsx";
 
 function App() {
     //const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
                 <Homepage/>
                 <Flatforms/>
                 <Programs/>
+                <Benefits/>
             </div>
 
         </div>

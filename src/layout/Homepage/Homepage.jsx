@@ -7,9 +7,9 @@ const Homepage = () => {
         <div className="container-fluid ">
 
             <div className="homepage-background container-fluid ">
-                {/*<img src="/src/assets/homepage.png" className="background-img img-fluid position-absolute z-0 "/>*/}
-                <div className="detail z-2 position-relative col-5 ">
-                    <div className="row ">
+
+                <div className="home-page-detail z-2 position-relative col-5 ">
+                    <div className="row information">
                         <h1> Tech leaders of tomorrow start here</h1>
                         <p>TechTrain offers expert-led STEAM & Creative tech learning to equip students (5-17 years)
                             with the future skills they will need to thrive. Our tailored approach nurtures tech fluency,
