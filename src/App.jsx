@@ -7,6 +7,8 @@ import Homepage from "./layout/Homepage/Homepage.jsx";
 import Flatforms from "./layout/Homepage/Flatforms.jsx";
 import Programs from "./layout/Programs/Programs.jsx";
 import Benefits from "./layout/Homepage/Benefits.jsx";
+import {Difference} from "./layout/Homepage/Difference.jsx";
+import SliderReview from "./layout/Homepage/SliderReview.jsx";
 
 function App() {
     //const [count, setCount] = useState(0)
@@ -19,6 +21,8 @@ function App() {
                 <Flatforms/>
                 <Programs/>
                 <Benefits/>
+                <Difference />
+                <SliderReview/>
             </div>
 
         </div>

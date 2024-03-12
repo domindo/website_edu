@@ -1,0 +1,111 @@
+.carousel-background {
+  background-image: url("src/assets/images/slider_background.png");
+  background-position: 50%;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  min-height: 550px;
+}
+.title-review {
+  color: #1178BB;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0 0 30px ;
+  padding: 20px 0 0;
+}
+.carousel .carousel-indicators button {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #1178BB;
+  margin: 0 3px 0.5em ;
+}
+.carousel-items {
+  width: 45%;
+  background-color: transparent ;
+  margin-right: auto;
+  margin-left: auto;
+  transition: transform 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.carousel .carousel-inner  {
+  height: 100%;
+}
+.carousel .carousel-indicators {
+  opacity: .46;
+  //background-color: rgba(27,167,224,.7);
+  border: 1px transparent;
+  top:auto;
+  bottom: 0%;
+  z-index: 2;
+  text-align: center;
+}
+.name-review {
+  color: #333333;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.text-review {
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 140%;
+
+}
+.line-review {
+  width: 255px;
+  height: 1px;
+
+  background-color: #179D50;
+  margin-bottom: 24px;
+}
+.carousel .carousel-control-prev{
+
+  width: 80px;
+
+
+  position: absolute;
+  .carousel-control-prev-icon {
+    color: #007aac;
+    width: 1em;
+    height: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+
+  }
+
+}
+.quote-review {
+  width: 80%;
+  color: #333333;
+  text-align: center;
+  position: static;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+  .carousel-photos {
+    width: 120px;
+    height: 120px;
+    border-width: 4px;
+    border-color: #1178BB;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px #686868;
+
+  }
+
+

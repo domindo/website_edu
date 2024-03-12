@@ -34,18 +34,18 @@ const listItems = [
 ]
 const Benefits = () => {
     return (
-        <div>
-            <h1>
+        <div className="benefits-section d-flex align-items-center flex-column ">
+            <h1 className="header-benefits text-center">
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Shaping tomorrow's tech-savvy global citizens
             </h1>
-            <div>
-                <div>
+            <div className="benefits-container container d-flex flex-wrap flex-row ">
+                <div className="benefits-describe ">
                     At TechTrain, we go beyond simply teaching coding. We strive to cultivate lifelong curiosity and innovative thinking in children. Our unique STEAM & Creative tech curriculum combines technical learning, topic-specific English skills, critical thinking and collaboration.
                     We provide our learners with the tools to succeed in a future shaped by constant technological change.
                 </div>
                 <div>
-                    <div className="d-flex flex-row flex-wrap">
+                    <div className="benefits-group d-flex flex-row flex-wrap justify-content-center align-items-center">
                         {listItems.map((item, index) => {
                             return <BenifitsItems key={index}
                                                   imgurl = {item.imgurl}

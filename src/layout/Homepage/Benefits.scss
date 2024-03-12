@@ -1,0 +1,27 @@
+.benefits-section {
+  width: auto;
+  height: auto;
+  background-color: rgba(27,167,224,.2) ;
+  padding:  40px 5% 20px;
+  justify-content: space-between;
+
+  .header-benefits {
+    color: #1178BB;
+  }
+
+  .benefits-group {
+    width: 100%;
+    flex-flow: row;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .benefits-container {
+    width: 1400px;
+    .benefits-describe {
+      text-align: left;
+      font-size: 1rem;
+      line-height: 140%;
+    }
+  }
+}
+

@@ -1,0 +1,52 @@
+.section-difference {
+  background-color: rgba(74,198,124,.1);
+
+  .header-difference {
+    color: #179D50;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+
+  .block-difference {
+    padding-top: 10px;
+
+    width: 1400px;
+    justify-content: space-around;
+    align-self: auto;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+
+  .card-block {
+    width: 220px;
+
+    .background-difference {
+      width: 50%;
+
+      vertical-align: middle;
+
+    }
+
+    .title-difference {
+      color: #333333;
+
+      margin: 10px 0;
+    }
+
+    .text-difference {
+      font-size: 1rem;
+      line-height: 140%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
