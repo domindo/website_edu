@@ -1,7 +1,16 @@
 .section-difference {
   background-color: rgba(74,198,124,.1);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
 
   .header-difference {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
     color: #179D50;
     font-weight: 600;
     font-size: 3rem;
@@ -22,6 +31,10 @@
 
   .card-block {
     width: 220px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 
     .background-difference {
       width: 50%;
@@ -32,14 +45,38 @@
 
     .title-difference {
       color: #333333;
-
+      height: auto;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 600;
+      font-family: sans-serif;
+      line-height: 1.3rem;
       margin: 10px 0;
     }
 
     .text-difference {
       font-size: 1rem;
+      text-align: center;
+      align-self: center;
       line-height: 140%;
     }
+  }
+  .button-experience {
+    border: 1px solid #179D50;
+    background-color: #179D50;
+    box-shadow: 0 2px 5px 0 #686868 ;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    align-self: auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 140%;
+    transition: all .2s;
+    display: inline-block;
+    padding: 9px 15px;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 

@@ -5,7 +5,7 @@ const Flatforms = () => {
     return (
 
         <div className="slider-container container-fluid red">
-            <div className="slider-block row align-items-center w-100 h-100">
+            <div className="slider-block row align-items-center  h-100">
                 <h1 className="text-center">Learning with real-world tech tools and platforms</h1>
                 <div className="slider">
                     <div className="logo ">

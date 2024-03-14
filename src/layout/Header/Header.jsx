@@ -4,7 +4,7 @@ import "./Header.scss"
 
 const Header = () => {
     return (
-            <div className="container-fluid d-flex flex-column" style={{zIndex:10}}>
+            <div className="container-fluid " style={{zIndex:10,height: "auto", marginBottom: 0,display:"block",position: "fixed"}}>
                 <div className="row">
                     <div className="column col-5 ">
                         <img src="/src/assets/images/logo.png" className="top-nav__logo float-start "/>

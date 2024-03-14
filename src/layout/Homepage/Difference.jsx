@@ -40,13 +40,13 @@ export const Difference = () => {
     return (
         <div className="section-difference">
             <h1 className='header-difference text-center '>Why parents choose TechTrain</h1>
-            <div className='block-difference container d-flex flex-wrap flex-row '>
+            <div className='block-difference d-flex flex-wrap flex-row '>
                 {listDifferences.map((difference, index) => {
                     return (
-                        <div className="card-block col-2 d-flex flex-column  align-items-center " key={index}>
+                        <div className="card-block " key={index}>
                             <img className="background-difference d-inline-block " src={difference.imgurl}/>
-                            <div className="title-difference text-center ">
-                                <strong className="">{difference.title}</strong>
+                            <div className="title-difference">
+                                {difference.title}
                             </div>
                             <div className="text-difference text-center align-self-center">{difference.text}</div>
                         </div>
@@ -54,7 +54,7 @@ export const Difference = () => {
                 })
                 }
             </div>
-            <button>Experience a FREE trial</button>
+            <button className="button-experience">Experience a FREE trial</button>
         </div>
 
     )

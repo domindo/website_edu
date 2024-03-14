@@ -10,8 +10,10 @@ const listExplores = [
         title: 'STEAM Discovery',
         text: "Jump-start your child's tech journey with our STEAM Discovery Program, designed to foster" +
             "basic computer and block coding skills in an engaging online environment.",
+        level: 'beginner',
         age: '5-11',
-        duration: '24 weeks (3*8-week courses)'
+        duration: '24 weeks ',
+        durationText: '(3*8-week courses)',
     },
     {
         imgurl: "src/assets/images/scratch_hp.png",
@@ -20,7 +22,8 @@ const listExplores = [
             "to coding fundamentals, machine learning concepts, and 3D design platforms.",
         level: 'beginner',
         age: '5-11',
-        duration: '16 weeks (2*8-week courses)'
+        duration: '16 weeks ',
+        durationText: '(2*8-week courses)',
     },
     {
         imgurl: "src/assets/images/gdev_hp.png",
@@ -29,7 +32,8 @@ const listExplores = [
             "offering a hands-on approach to 2D game design with user-friendly GDevelop software.",
         level: 'beginner/intermediate',
         age: '8-15',
-        duration: '24 weeks (3*8-week courses)'
+        duration: '24 weeks',
+        durationText: '(3*8-week courses)',
     },
     {
         imgurl: "src/assets/images/roblox_hp.png",
@@ -38,7 +42,8 @@ const listExplores = [
             "and project planning in the dynamic environment of Roblox Studio.",
         level: 'beginner/intermediate',
         age: '8-15',
-        duration: '24 weeks (3*8-week courses)'
+        duration: '24 weeks',
+        durationText: '(3*8-week courses)',
     },
     {
         imgurl: "src/assets/images/blender_hp.png",
@@ -47,7 +52,8 @@ const listExplores = [
             ' create complex models using advanced tools like Blender and Python coding.',
         level: 'beginner/intermediate',
         age: '8-15',
-        duration: '24 weeks (3*8-week courses)'
+        duration: '24 weeks ',
+        durationText: '(3*8-week courses)',
     },
     {
         imgurl: "src/assets/images/python_hp.png",
@@ -56,23 +62,24 @@ const listExplores = [
             "learning concepts combine to forge the game creators of the future.",
         level: 'beginner/intermediate',
         age: '8-15',
-        duration: '24 weeks (3*8-week courses)'
+        duration: '24 weeks ',
+        durationText: '(3*8-week courses)',
     }
 ]
 
 const Programs = () => {
     return (
-        <div className="highlight-program container-fluid">
-            <div className="describe-program">
-                <h1>
+        <div className="highlight_program container-fluid">
+            <div className="describe_program">
+                <h1 className="title_describe">
                     Explore six diverse Programs
                 </h1>
-                <div>
+                <div className="text_describe">
                     Dive into block-based coding, 3D design, game development, programming, AI & machine learning.
                     Each TechTrain Program offers a unique tech adventure for curious young minds.
                 </div>
             </div>
-            <div className="d-flex flex-row flex-wrap my-5 ">
+            <div className="container d-flex flex-row flex-wrap ">
 
                     {listExplores.map((explore, index) => {
                         return <Course key={index}
@@ -82,6 +89,7 @@ const Programs = () => {
                                        level={explore?.level}
                                        age={explore?.age}
                                        duration={explore?.duration}
+                                       durationText={explore?.durationText}
                         />
                     })}
 

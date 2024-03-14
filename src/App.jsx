@@ -9,6 +9,7 @@ import Programs from "./layout/Programs/Programs.jsx";
 import Benefits from "./layout/Homepage/Benefits.jsx";
 import {Difference} from "./layout/Homepage/Difference.jsx";
 import SliderReview from "./layout/Homepage/SliderReview.jsx";
+import AboutUs from "./layout/Aboutus/AboutUs.jsx";
 
 function App() {
     //const [count, setCount] = useState(0)
@@ -17,12 +18,13 @@ function App() {
         <div className="">
             <div className="">
                 <Header/>
-                <Homepage/>
-                <Flatforms/>
-                <Programs/>
-                <Benefits/>
-                <Difference />
-                <SliderReview/>
+                {/*<Homepage/>*/}
+                {/*<Flatforms/>*/}
+                {/*<Programs/>*/}
+                {/*<Benefits/>*/}
+                {/*<Difference />*/}
+                {/*<SliderReview/>*/}
+                <AboutUs/>
             </div>
 
         </div>
